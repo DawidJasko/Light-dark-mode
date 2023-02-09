@@ -57,6 +57,7 @@ function switchTheme(event) {
     document.documentElement.setAttribute('data-theme', 'light');
     localStorage.setItem('theme', 'light');
     toggleDarkLightMode(false);
+    console.log("darkmode")
   }
 }
 
